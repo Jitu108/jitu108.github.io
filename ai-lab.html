@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Lab | Jitendra Gupta</title>
+    <meta name="description" content="AI-driven experiments and projects by Jitendra Gupta - exploring automation, healthcare insights, and practical AI applications." />
+    <meta name="author" content="Jitendra Gupta" />
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/Jitendra Profile.png" alt="Jitendra Gupta" class="logo-image">
+            </a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#insights">Insights</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="leadership.html">Leadership</a></li>
+                <li><a href="tech-deepdive.html">Tech Deep Dive</a></li>
+                <li><a href="ai-lab.html" class="active">AI Lab</a></li>
+                <li><a href="articles.html">Articles</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- AI Lab Section -->
+    <section class="section ai-lab-page">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-top-title">Experiments & Innovation</h3>
+                <h2 class="about-me-subtitle">AI <span class="text-gradient">Lab</span></h2>
+                <div class="leadership-underline"></div>
+            </div>
+
+            <div class="ai-lab-intro">
+                <p class="intro-paragraph">
+                    A collection of AI-driven experiments I build for learning, automation, and healthcare insight.
+                </p>
+            </div>
+
+            <!-- AI Projects Grid -->
+            <div class="ai-lab-grid">
+                <article class="ai-lab-card" data-project="release-notes-generator">
+                    <div class="ai-lab-icon-wrapper">
+                        <svg class="ai-lab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                            <polyline points="10 9 9 9 8 9"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="ai-lab-title">AI Release Notes Generator</h3>
+                    <p class="ai-lab-description">Automated release notes generation from Git commits and Jira tickets using LLMs. Transforms technical changes into clear, stakeholder-friendly documentation.</p>
+                    <div class="ai-lab-meta">
+                        <span class="ai-lab-tag">LangChain</span>
+                        <span class="ai-lab-tag">GPT-4</span>
+                        <span class="ai-lab-tag">Automation</span>
+                    </div>
+                    <div class="ai-lab-footer">
+                        <span class="ai-lab-status status-production">Production</span>
+                        <button class="ai-lab-cta">View Details →</button>
+                    </div>
+                </article>
+
+                <article class="ai-lab-card" data-project="sql-index-advisor">
+                    <div class="ai-lab-icon-wrapper">
+                        <svg class="ai-lab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="7.5 4.21 12 6.81 16.5 4.21"></polyline>
+                            <polyline points="7.5 19.79 7.5 14.6 3 12"></polyline>
+                            <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3 class="ai-lab-title">SQL Index Advisor</h3>
+                    <p class="ai-lab-description">AI-powered SQL query analyzer that recommends optimal indexing strategies. Analyzes execution plans and suggests performance improvements for complex queries.</p>
+                    <div class="ai-lab-meta">
+                        <span class="ai-lab-tag">SQL Server</span>
+                        <span class="ai-lab-tag">LLM</span>
+                        <span class="ai-lab-tag">Performance</span>
+                    </div>
+                    <div class="ai-lab-footer">
+                        <span class="ai-lab-status status-beta">Beta</span>
+                        <button class="ai-lab-cta">View Details →</button>
+                    </div>
+                </article>
+
+                <article class="ai-lab-card" data-project="ticket-intelligence">
+                    <div class="ai-lab-icon-wrapper">
+                        <svg class="ai-lab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                            <circle cx="12" cy="12" r="3"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="ai-lab-title">Ticket Intelligence Hub</h3>
+                    <p class="ai-lab-description">Smart ticket classification, priority prediction, and automated routing using NLP. Reduces manual triage time and improves issue resolution speed.</p>
+                    <div class="ai-lab-meta">
+                        <span class="ai-lab-tag">NLP</span>
+                        <span class="ai-lab-tag">Classification</span>
+                        <span class="ai-lab-tag">Jira API</span>
+                    </div>
+                    <div class="ai-lab-footer">
+                        <span class="ai-lab-status status-production">Production</span>
+                        <button class="ai-lab-cta">View Details →</button>
+                    </div>
+                </article>
+
+                <article class="ai-lab-card" data-project="rag-pipeline">
+                    <div class="ai-lab-icon-wrapper">
+                        <svg class="ai-lab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                            <path d="M11 8a3 3 0 0 0-3 3"></path>
+                        </svg>
+                    </div>
+                    <h3 class="ai-lab-title">RAG Pipeline with FAISS</h3>
+                    <p class="ai-lab-description">Retrieval-Augmented Generation system for healthcare documentation. Vector search with FAISS, semantic chunking, and context-aware responses from medical knowledge bases.</p>
+                    <div class="ai-lab-meta">
+                        <span class="ai-lab-tag">FAISS</span>
+                        <span class="ai-lab-tag">RAG</span>
+                        <span class="ai-lab-tag">Embeddings</span>
+                    </div>
+                    <div class="ai-lab-footer">
+                        <span class="ai-lab-status status-beta">Beta</span>
+                        <button class="ai-lab-cta">View Details →</button>
+                    </div>
+                </article>
+
+                <article class="ai-lab-card" data-project="langgraph-agents">
+                    <div class="ai-lab-icon-wrapper">
+                        <svg class="ai-lab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="ai-lab-title">LangGraph Multi-Agent Demo</h3>
+                    <p class="ai-lab-description">Orchestrated AI agents using LangGraph state machines. Demonstrates tool calling, agent coordination, and deterministic workflows for complex automation tasks.</p>
+                    <div class="ai-lab-meta">
+                        <span class="ai-lab-tag">LangGraph</span>
+                        <span class="ai-lab-tag">Multi-Agent</span>
+                        <span class="ai-lab-tag">Ollama</span>
+                    </div>
+                    <div class="ai-lab-footer">
+                        <span class="ai-lab-status status-experiment">Experiment</span>
+                        <button class="ai-lab-cta">View Details →</button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Back to Home -->
+            <div class="back-to-home">
+                <a href="index.html" class="btn btn-primary">← Back to Home</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // Handle project card clicks
+        document.querySelectorAll('.ai-lab-card').forEach(card => {
+            card.addEventListener('click', function(e) {
+                if (!e.target.classList.contains('ai-lab-cta')) {
+                    this.querySelector('.ai-lab-cta').click();
+                }
+            });
+        });
+
+        document.querySelectorAll('.ai-lab-cta').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const card = this.closest('.ai-lab-card');
+                const project = card.dataset.project;
+                // For now, show alert - will be replaced with actual project detail pages
+                alert(`Project "${project}" detail page coming soon!`);
+                // TODO: Navigate to project detail page
+                // window.location.href = `ai-lab/${project}.html`;
+            });
+        });
+    </script>
+</body>
+
+</html>
